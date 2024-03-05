@@ -270,7 +270,7 @@ ul{
 .menu-icon{
     width: 28px;
     margin-left: 20px; 
-    display: none;
+    display: none; 
 }
 
 /* media query for menu */
@@ -299,6 +299,19 @@ ul{
         display: block;
         cursor: pointer;
     }
+}
+
+/* All Products */
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
 }
 
 /* Media query for less than 600px screen size */
